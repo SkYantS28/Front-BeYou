@@ -1,0 +1,38 @@
+const BotaoLimparTudo = styled.button`
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 15px;
+  background-color: #f45bf4;
+  color: white;
+  border: solid 2px #6c4539;
+  opacity: 0.8;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  &::placeholder {
+    color: #6c4539;
+    font-style: italic;
+  }
+
+  &:focus {
+    border: 2px solid hsl(300, 99%, 64%);
+  }
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(255, 105, 180, 0.2);
+    transform: translateY(-2px);
+    transform: scale(1.1);
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: none;
+  }
+`;

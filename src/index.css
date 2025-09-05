@@ -1,0 +1,13 @@
+*{
+  font-family: arial, sans-serif;
+  margin: 0 auto; /*As margens são usadas para criar espaço ao redor dos elementos, fora de quaisquer bordas definidas. (fora)*/
+  padding: 0; /*padding = preenchimento. (dentro)
+  Cria espaço ao redor do conteúdo de um elemento, dentro de quaisquer bordas definidas.*/
+  box-sizing: border-box; /*o tamanho agora levará em conta até a borda.
+  ou seja, o width será a soma do conteúdo com a borda e o padding*/
+}
+
+body, html {
+  height: 100%;
+} 
+
